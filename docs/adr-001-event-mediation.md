@@ -40,4 +40,4 @@ The integration runtime is responsible for:
 
 ## Evidence boundary
 
-The mission demonstrates the adapter-based event consumption approach. Production-grade recovery, enterprise alerting and downstream contracts are architecture recommendations rather than demonstrated mission features.
+The project demonstrates the adapter-based event consumption approach. Production-grade recovery, enterprise alerting and downstream contracts are architecture recommendations rather than demonstrated mission features.
