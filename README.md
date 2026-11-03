@@ -2,8 +2,6 @@
 
 ### SAP Integration Architecture Portfolio
 
-This repository is an architecture case study based on the SAP Discovery Center mission **“Publish Platform Events and fetch them using the Salesforce Pub/Sub Adapter”**.
-
 The scenario demonstrates how a Salesforce Platform Event can be created and published with Apex and consumed by SAP Integration Suite / SAP Cloud Integration using the **Salesforce Pub/Sub Adapter (Sender)**.
 
 > **Portfolio scope:** This repository documents the mission-supported solution and adds clearly identified architecture recommendations. It does not claim production deployment or a live Salesforce integration beyond the evidence available in the mission.
