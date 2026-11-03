@@ -43,9 +43,3 @@ The following are recommendations/design artifacts and are **not** claims that t
 ## 3. Execution status
 
 The Salesforce mission was not executed manually for this portfolio because a Salesforce environment was not available.
-
-Therefore, this repository should be presented as a **mission-based architecture case study**, not as a production implementation.
-
-## 4. Source boundary
-
-The supplied PDF consists of SAP Discovery Center mission screenshots. Where exact technical details were not readable or were not specified by the mission, this repository intentionally uses `TBD`, logical descriptions or explicit validation notes instead of inventing values.
