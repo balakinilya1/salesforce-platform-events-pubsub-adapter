@@ -41,4 +41,3 @@ The production design should additionally test:
 - repeated event delivery;
 - recovery after consumer interruption.
 
-The mission does not provide detailed expected outcomes for all of these scenarios, so they remain portfolio test cases.
