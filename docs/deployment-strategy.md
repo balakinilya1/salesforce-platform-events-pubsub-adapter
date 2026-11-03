@@ -4,11 +4,7 @@
 
 Deploy the Cloud Integration flow with environment-specific connectivity and security configuration while keeping secrets outside the integration artifact.
 
-## 2. Mission scope
-
-The mission demonstrates deployment of the integration flow and monitoring of the deployed artifact.
-
-## 3. Recommended environment model
+## 2. Recommended environment model
 
 ```text
 DEV → TEST/QA → PROD
@@ -16,7 +12,7 @@ DEV → TEST/QA → PROD
 
 This promotion model is a portfolio recommendation. The mission does not establish an enterprise transport pipeline.
 
-## 4. Environment-specific configuration
+## 3. Environment-specific configuration
 
 | Configuration | DEV | TEST | PROD |
 |---|---|---|---|
@@ -27,7 +23,7 @@ This promotion model is a portfolio recommendation. The mission does not establi
 | Logging | Diagnostic | Diagnostic | Minimum necessary |
 | Monitoring | Developer | QA/support | Production operations |
 
-## 5. Deployment sequence
+## 4. Deployment sequence
 
 1. Version the integration artifact.
 2. Validate externalized configuration.
@@ -38,4 +34,3 @@ This promotion model is a portfolio recommendation. The mission does not establi
 7. Execute integration and negative tests.
 8. Obtain production approval before productive deployment.
 
-CI/CD automation is not demonstrated by the mission and is therefore not claimed here.
