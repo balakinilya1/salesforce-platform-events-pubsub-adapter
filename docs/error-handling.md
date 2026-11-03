@@ -4,7 +4,7 @@
 
 Event-driven integration must distinguish between connectivity problems, authentication failures, replay-position problems and processing failures.
 
-## 2. Mission-supported handling
+## 2. Handling
 
 The Pub/Sub Adapter configuration includes:
 
@@ -12,8 +12,6 @@ The Pub/Sub Adapter configuration includes:
 - a replay preset for invalid replay IDs;
 - a duplicate-check expiration setting;
 - an option to process errors as events.
-
-The mission also shows deployment and monitoring of the integration flow.
 
 ## 3. Error categories
 
@@ -26,7 +24,7 @@ The mission also shows deployment and monitoring of the integration flow.
 | Transformation | Event cannot be processed | Capture event context and business error |
 | Downstream | Target unavailable/rejects event | Retry where safe; retain failed event for recovery |
 
-The retry, dead-letter and recovery policies are portfolio recommendations, not mission-demonstrated implementation.
+The retry, dead-letter and recovery policies are portfolio recommendations, not implementation.
 
 ## 4. Recovery model
 
@@ -40,9 +38,3 @@ flowchart TD
     D -- No --> G["Capture failure context"]
     G --> H["Operational alert / reprocessing"]
 ```
-
-## 5. Idempotency
-
-The mission provides a duplicate-check configuration parameter. A production design should still define an explicit business idempotency key and downstream duplicate semantics.
-
-The mission does not provide a complete end-to-end idempotency contract.
