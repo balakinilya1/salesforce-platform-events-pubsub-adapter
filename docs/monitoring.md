@@ -10,13 +10,7 @@ Operations should be able to determine:
 4. which errors require intervention;
 5. whether failed events can be recovered.
 
-## 2. Mission evidence
-
-The mission includes deployment and monitoring steps in SAP Integration Suite and instructs the user to review integration-flow execution status.
-
-It also demonstrates verification of the response/event body.
-
-## 3. Recommended operational model
+## 2. Recommended operational model
 
 ```mermaid
 flowchart LR
@@ -27,7 +21,7 @@ flowchart LR
     ERR --> OPS["Integration Support"]
 ```
 
-## 4. Suggested KPIs
+## 3. Suggested KPIs
 
 These are portfolio recommendations:
 
@@ -42,7 +36,7 @@ These are portfolio recommendations:
 
 No numeric SLA thresholds are defined because the mission does not provide them.
 
-## 5. Logging
+## 4. Logging
 
 Logging should be sufficient to diagnose failures without unnecessarily exposing sensitive event data.
 
