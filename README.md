@@ -124,17 +124,3 @@ The project is organized into the same architecture themes used in the existing 
 - [Mission Evidence](docs/mission-evidence.md)
 
 ---
-
-## Status
-
-**Architecture case study — mission-based portfolio project**
-
-The Salesforce-side mission was not executed manually in this portfolio because a Salesforce environment was not available. The repository therefore distinguishes mission evidence from architecture recommendations and does not present the scenario as a production deployment.
-
-## Source
-
-SAP Discovery Center mission:
-
-**Publish Platform Events and fetch them using the Salesforce Pub/Sub Adapter**
-
-The supplied mission material contains the screenshots and configuration steps used as the evidence base for this repository.
